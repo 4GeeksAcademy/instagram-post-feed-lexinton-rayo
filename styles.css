@@ -1,0 +1,167 @@
+.card {
+    position: relative;
+    width: 360px;
+    height: 480px;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+
+}
+
+.card .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .top .userD {
+    display: flex;
+    align-items: center;
+}
+
+.card .top .userD .profile-img {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .top .userD h3 {
+    font-size: 16px;
+
+}
+
+.card .top .userD h3 span {
+    font-size: 0.75em;
+
+}
+
+.dot {
+    transform: scale(0.6);
+    cursor: pointer;
+}
+
+.img8x {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    margin: 10px 0px 15px;
+
+}
+
+.likes {
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.cardq {
+    position: relative;
+    top: 550px;
+    right: 450px;
+    width: 360px;
+    height: 480px;
+    background-color: #ccc;
+    padding: 20px;
+    margin: 50px;
+}
+
+.cardq .topq {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cardq .topq .userDq {
+    display: flex;
+    align-items: center;
+}
+
+
+.cardq .topq .userDq .profile-imgq {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+
+.cardq .topq .userDq h3 {
+    font-size: 16px;
+}
+
+
+.cardq .topq .userDq h3 span {
+    font-size: 0.75em;
+}
+
+
+
+
+
+
+
+
+
+
+.card3 {
+    position: relative;
+    top: 1140px;
+    right: 950px;
+    width: 360px;
+    height: 480px;
+    background-color: #ccc;
+    padding: 20px;
+    margin: 50px;
+}
+
+.card3 .topq3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card3 .topq3 .userDq3 {
+    display: flex;
+    align-items: center;
+}
+
+
+.card3 .topq3 .userDq3 .profile-imgq3 {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+
+.card3 .topq3 .userDq3 h3 {
+    font-size: 16px;
+}
+
+
+.card3 .topq3 .userDq3 h3 span {
+    font-size: 0.75em;
+}
